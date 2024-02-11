@@ -1,0 +1,148 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.header{
+    min-height: 100vh;
+    width:100%;
+    background-image:  url("../images/poe2.jpg");
+    background-position: center;
+    background-size:cover;
+    position: relative;
+}
+
+.header2{
+    color:#000;
+    text-align: left;
+    text-decoration: underline;
+    margin:20px;
+    padding: 20px;
+}
+
+a{
+    text-align: left;
+    color:#fff;
+text-decoration: none;
+padding:12px;
+font-size: 60px;
+}
+
+/*rsp=read some Poe*/
+.rsp a{ 
+
+  font-size: 25px;
+    color:rgb(6, 30, 246);
+    font-size:medium;
+text-align: left; 
+   
+}
+
+
+.source{
+    color:rgb(7, 23, 243);
+    font-size:medium;
+    text-decoration: underline;
+ 
+}
+
+
+/*body styling*/
+body{
+    height: 100px;
+}
+.body  {
+    max-width: 70em;
+    margin: 0 auto 0 auto;
+    
+    }
+
+
+table, th, td {
+border-collapse: collapse;
+border: 1px solid #ec1014;
+padding: 1em;
+}
+
+
+/*Body2 Styling*/
+
+.body2{
+    
+background-color:rgba(231, 234, 151, 0.448);
+}
+
+.body2 p,h1,img,h2{
+    text-align: center;
+}
+
+
+
+/*Body3 Styling*/
+.body3 {
+   
+  background-image: url(../images/heart2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 200px;
+  min-height: 100vh;
+height:fit-content;
+  background-size: cover;
+ 
+}
+.body3 p{
+    border: #fff;
+    color: #fff;
+ background-color: #0b0b0b;
+   width: 1000px;
+  
+}
+.body3 h1{
+   
+   color:#fff;
+    text-align: center;
+}
+
+.body3 a{
+   color: #fff;
+
+     text-align: center;
+ }
+.eap{
+    color:#fafafa;
+}
+
+
+
+/*text styling*/
+h1 {
+    text-decoration: none;
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+}
+
+p {
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+.rip{
+    font-size: 50px;
+text-align: left;
+margin: -250px 60px 2px;
+
+}
+/*image styling*/
+
+.poe {
+    width:250px;
+float:right;
+margin: 20px;
+border-radius: 10px;
+
+}
+
+
+div{
+    float:inline-start;
+}

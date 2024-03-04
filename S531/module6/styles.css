@@ -1,0 +1,189 @@
+      header {
+            grid-area: header;
+            background-color: yellow;
+        }
+
+        nav {
+            grid-area: nav;
+            
+        }
+
+        main {
+            grid-area: main;
+            background-color: #fff;
+        }
+
+        aside {
+            padding: 10px;
+            grid-area: aside;
+            background-color:#fff;
+        }
+
+        footer {
+            grid-area: footer;
+          
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-areas:
+                'nav nav nav nav nav nav'
+                'aside2 aside2 main main main aside'
+                'aside2 aside2 main main main aside'
+                'footer footer footer footer footer footer';
+            grid-gap: .5em;
+           
+        }
+
+        ul li {
+            list-style-type: none;
+        }
+
+        @media only screen and (max-width : 900px) {
+            body {
+                background: blue;
+            }
+
+            .grid-container {
+                display: grid;
+                grid-template-areas:
+                    'nav nav nav nav nav nav'
+                    'header header header header header header'
+                    'main main main main aside aside'
+                    'footer footer footer footer footer footer';
+                grid-gap: .5em;
+                padding: .5em;
+            }
+
+            ul li {
+                display: inline-block;
+            }
+
+        }
+
+        
+        @media only screen and (max-width : 600px) {
+
+            body {
+                background: fuchsia;
+            }
+
+            .grid-container {
+                display: grid;
+                grid-template-areas:
+                    'nav nav nav nav nav nav'
+                    'header header header header header header'
+                    'main main main main main main'
+                    'aside aside aside aside aside aside'
+                    'footer footer footer footer footer footer';
+                grid-gap: .5em;
+                padding: .5em;
+            }
+
+            ul li {
+                display: inline-block;
+            }
+
+        }
+       
+
+
+
+
+body{
+    
+    text-align: center;
+padding: 0;
+height: 348px;
+background-color: #fff;
+
+}
+
+h3{
+
+    text-align: left;
+    color: #000;
+}
+
+h2{
+    
+    
+    font-size: 70px;
+}
+
+p{
+    float:none;
+    font-size:30px;
+}
+
+
+
+ul{
+   
+    overflow:hidden;
+    background-color: #000;
+    
+}
+
+li {
+
+list-style: none;
+float:right;
+
+}
+
+li a{
+
+    font-size: 25px;
+    padding:42px;
+    display:block;
+    text-align: center;
+    text-decoration: none;
+    color:#fff;
+
+}
+
+li a:hover{
+
+    color: #636363;
+}
+
+.footer1{
+    
+   float: none;
+   
+    
+    li a{
+    
+        font-size: 15px;
+        padding:11px;
+        display:block;
+        text-align: center;
+        text-decoration: none;
+        color:#fff;
+        
+    
+    }
+    li a:hover{
+
+        color: #636363;
+    }
+}
+
+.bio{
+    color:#fff;
+    float:none;
+    padding:19px;
+}
+
+.image1{
+    max-width: 50%;
+    height: auto;
+    min-width: 300px;
+}
+
+.image2{
+    max-width: 50%;
+  height: auto;
+  min-width: 300px;
+}
